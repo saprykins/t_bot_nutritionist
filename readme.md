@@ -118,39 +118,12 @@ nutrition-bot/
 1. Send `/start` to your bot on Telegram
 2. Follow the interactive prompts to set up your profile
 
-### Main Features
-- **📝 My Profile**: Create or update your personal information
-- **🗓️ Generate Menu**: Create a personalized 7-day meal plan
-
-### Profile Information Required
-- **Sex**: Male or Female (for accurate calorie calculation)
-- **Weight**: Your current weight in kilograms
-- **Height**: Your height in centimeters
-- **Age**: Your age in years
-- **Activity Level**:
-  - Minimal (desk job, no exercise)
-  - Light (1-3 days/week exercise)
-  - Moderate (3-5 days/week)
-  - High (6-7 days/week)
-  - Extreme (2x daily/physical job)
-- **Goal**: Lose weight, maintain weight, or gain weight
-
 
 ## 🔧 Configuration
 
-### CSV Data Storage
-User data is stored in `user_data.csv` with the following fields:
-- `chat_id`: Telegram chat identifier
-- `sex`: User's biological sex
-- `weight`: Weight in kg
-- `height`: Height in cm
-- `age`: Age in years
-- `activity`: Activity level
-- `goal`: Fitness goal
-- `calories`: Calculated daily calorie needs
-
 ### AI Model Configuration
 The bot uses GitHub's AI inference service with the `openai/gpt-4.1-nano` model for menu generation.
+
 
 ## 🛠️ Customization
 
