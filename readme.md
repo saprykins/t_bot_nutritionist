@@ -74,3 +74,16 @@ Follow these steps to set up and run the bot locally.
 Here's a quick look at how to input your information into the bot:
 
 ![Information Input Demo](images/information_input.GIF)
+
+
+
+<video width="320" height="240" controls>
+  <source src="/images/information_input.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+https://user-images.githubusercontent.com/username/video.mp4
+
+
+
+![Information Input Demo](images/output-15.gif)
